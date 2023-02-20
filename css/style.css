@@ -1,0 +1,65 @@
+body {
+    background-color:rgb(241, 235, 235) !important;
+}
+
+.rating img{
+    width: 20px;
+    margin-bottom: 1rem;
+}
+
+.container {
+    margin-top: 30px;
+}
+
+textarea {
+    height: 26px;
+    max-width: 95%;
+    width: 30%;
+}
+
+h2 textarea {
+    height: 40px;
+    margin-top: 10px;
+}
+
+h3 textarea {
+    height: 36px;
+}
+
+.desc {
+    width: 95%;
+    height: 125px;
+}
+
+.container-fluid {
+    margin-top: 20px !important;
+}
+
+.quantity {
+    width: 50px !important;
+}
+
+.rating_bar {
+    width: 120px;
+}
+
+.rating_bar > span:before {
+    content:'★';
+    color: #c7c5c5;
+    cursor:pointer;
+    font-size:24px;
+}
+
+.rating_bar:hover > span:before {
+    color: #4bce32;
+}
+
+.rating_bar > span:hover ~ span:before {
+    color: #c7c5c5;
+}
+
+.card {
+    margin: 0 auto; 
+    float: none; 
+    margin-bottom: 10px; 
+}
